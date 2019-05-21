@@ -1,68 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MIDTERM PROJECT-B04505007<br/>
+###ONLINE MUSIC SHARING PLATFORM
 
-## Available Scripts
 
-In the project directory, you can run:
+線上音樂分享平台，可上傳YOUTUBE URL ，擁有獨立討論版 
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+# 操作步驟
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd midterm 
+npm install
+cd server
+npm install 
+輸入server 帳號密碼(package.json)
+npm npm run devstart
+開新terminal視窗
 
-### `npm run build`
+cd own
+npm start
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Feature
+1. 上方左右按鈕切換音樂類別
+2. 左上角current status顯示當前目錄狀態
+3. 下方左右按鈕切換音樂順序，可一次播放多首音樂
+4. MORE按鈕進入討論版，輸入使用者名稱進行留言(之後登入系統會優化）
+5. ADD按鈕新增新的音樂網址（非字串型態）
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## npm install 套件:
+ 
+nodemon,
+request,
+cors,
+mongoose,
+axios,
+body-parser,
+express
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+# 我的貢獻
+1. 設計方面做了很久，自己從頭手刻
+2. 使用react-router完成前端部分，是花最多時間的部分，部分功能使用之前作業寫過的部分
+3. 用axios和fetch 完成get 和post
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
+## 尚未完成部分
+1. 還在熟悉登入功能，之後會進行優化
+2. 尚未使用Deploy連結
+3. nodemon 問題尚未解決，還必須重啟server讀取讀取雲端的資料
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+##參考資料
+後端教學網站：<br/>
+https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-3/
+# 心得
+這次是第一次從頭開始自己做網站，設計的方面花了很多時間，一直因為排版不好看而作修改。
+目前功能簡單，之後會增加更多進階功能。
+討論版切換id 真的把自己搞得眼花撩亂。
+後來發現server side 才是最麻煩的部分，一直連不到或抓不到資料。漸漸熟悉之後，我對架設網站概念有了雛形，也瞭解如何寫好一個前端後端結構完整，功能齊全的網站是一門不簡單的學問，謝謝老師和助教對於這堂課的用心。
+
+
+
+
+
